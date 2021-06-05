@@ -17,10 +17,10 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 * [sudo](https://www.sudo.ws/): the superuser authority delegation tool.
 * [zsh](https://www.zsh.org/): interactive terminal (alternative to `bash`).
 * [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh): a delightful community driven framework for managing zsh config.
-* [.NET Core SDK 3.1 LTS](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=codespacesexamples-github-juyoo): a free, cross-platform and open source developer platform for building all types of apps.
-* [Azure Functions Core Tools v3](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash&WT.mc_id=codespacesexamples-github-juyoo): lets you develop and test your functions on your local computer from the command prompt or terminal.
+* [.NET Core SDK 3.1 LTS](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=dotnet-0000-juyoo): a free, cross-platform and open source developer platform for building all types of apps.
+* [Azure Functions Core Tools v3](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=linux,csharp,bash&WT.mc_id=dotnet-0000-juyoo): lets you develop and test your functions on your local computer from the command prompt or terminal.
 * [Docker CE](https://docs.docker.com/engine/install/ubuntu/): runs Docker CLI inside Codespaces.
-* [PowerShell 7](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7&WT.mc_id=codespacesexamples-github-juyoo): a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
+* [PowerShell 7](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7&WT.mc_id=dotnet-0000-juyoo): a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
 
 > **NOTE**: Docker daemon can't be running inside Codespaces. Instead, set `DOCKER_HOST` to access to a remote docker daemon.
 
@@ -29,26 +29,26 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 
 The following extensions are installed for .NET Core development.
 
-* [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack): Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.
-* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp): Included for C# development.
-* [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions): Included to speed up development workflows.
-* [C# Sort Usings](https://marketplace.visualstudio.com/items?itemName=jongrant.csharpsortusings): Included for document formatting.
-* [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment): Included for XML style C# code documentation.
-* [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack): Collection of extensions to assist with content development for [docs.microsoft.com](https://docs.microsoft.com/?WT.mc_id=codespacesexamples-github-juyoo).
-* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig): Included for .NET Core code formatting found in `.editorconfig`.
-* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): View a Git Graph of your repository, and perform Git actions from the graph.
-* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory): View git log, file history, compare branches or commits
-* [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
-* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): An extension that significantly enhances the experience using Git in a development environment.
-* [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode): AI-assisted development for multiple languages including JavaScript and TypeScript.
-* [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
-* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): All you need to write README.md in Markdown.
-* [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell): This extension provides rich PowerShell language support.
+* [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack&WT.mc_id=dotnet-0000-juyoo): Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.
+* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp&WT.mc_id=dotnet-0000-juyoo): Included for C# development.
+* [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions&WT.mc_id=dotnet-0000-juyoo): Included to speed up development workflows.
+* [C# Sort Usings](https://marketplace.visualstudio.com/items?itemName=jongrant.csharpsortusings&WT.mc_id=dotnet-0000-juyoo): Included for document formatting.
+* [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment&WT.mc_id=dotnet-0000-juyoo): Included for XML style C# code documentation.
+* [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack&WT.mc_id=dotnet-0000-juyoo): Collection of extensions to assist with content development for [docs.microsoft.com](https://docs.microsoft.com/?WT.mc_id=dotnet-0000-juyoo).
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig&WT.mc_id=dotnet-0000-juyoo): Included for .NET Core code formatting found in `.editorconfig`.
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&WT.mc_id=dotnet-0000-juyoo): View a Git Graph of your repository, and perform Git actions from the graph.
+* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&WT.mc_id=dotnet-0000-juyoo): View git log, file history, compare branches or commits
+* [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github&WT.mc_id=dotnet-0000-juyoo): Integration with GitHub's Pull Requests and Issues features that significantly enhance the experience of working in a repo hosted on GitHub.
+* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&WT.mc_id=dotnet-0000-juyoo): An extension that significantly enhances the experience using Git in a development environment.
+* [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode&WT.mc_id=dotnet-0000-juyoo): AI-assisted development for multiple languages including JavaScript and TypeScript.
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare&WT.mc_id=dotnet-0000-juyoo): collaborative, multi-user remote editing from directly within the editor.
+* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one&WT.mc_id=dotnet-0000-juyoo): All you need to write README.md in Markdown.
+* [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell&WT.mc_id=dotnet-0000-juyoo): This extension provides rich PowerShell language support.
 
 The following extensions are intentionally disabled until they support remote server.
 
-* ~~[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): An extension colors matching brackets appropriately to enhance code readability.~~
-* ~~[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): An enhancement to the editor UI that gives more visual indicators in the explorer.~~
+* ~~[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2&WT.mc_id=dotnet-0000-juyoo): An extension colors matching brackets appropriately to enhance code readability.~~
+* ~~[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons&WT.mc_id=dotnet-0000-juyoo): An enhancement to the editor UI that gives more visual indicators in the explorer.~~
 
 
 ### Dotfiles ###
@@ -70,7 +70,7 @@ Dotfiles are meant to be personalised configuration. But the following dotfiles 
 
 #### Initial Creation ####
 
-For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com), you're going to take the following steps:
+For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=dotnet-0000-juyoo) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=dotnet-0000-juyoo), you're going to take the following steps:
 
 * Ensure you're on the `/environments` page at [online.visualstudio.com/environments](https://online.visualstudio.com/environments)
 * In the top right corner, there'll be a "Create environment" button. Click this button, which will open up a panel from the right side of the screen. Fill in the details of this panel:
@@ -87,15 +87,15 @@ For usage in VS Codespaces, you're going to want to head over to [online.visuals
 
 #### Connecting to your Environment ####
 
-Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com) and selecting the vertical ellipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
+Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=dotnet-0000-juyoo) and selecting the vertical ellipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
 
 When inside of the environment you can change envrionments themselves from the command pallete with the `Codespaces: Connect`.
 
-> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/visualstudio/online/quickstarts/browser?WT.mc_id=codespacesexamples-github-juyoo) quickstart for more information.
+> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/visualstudio/online/quickstarts/browser?WT.mc_id=dotnet-0000-juyoo) quickstart for more information.
 
-Additionally, if you've installed the [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
+Additionally, if you've installed the [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline&WT.mc_id=dotnet-0000-juyoo) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
 
-> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/visualstudio/online/quickstarts/vscode?WT.mc_id=codespacesexamples-github-juyoo) quickstart for more information.
+> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/visualstudio/online/quickstarts/vscode?WT.mc_id=dotnet-0000-juyoo) quickstart for more information.
 
 
 #### Working ####
